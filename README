@@ -1,28 +1,40 @@
-jw-library-gtk
+JW Library GTK
 ==============
 
-A free and open source alternative to the JW Library application, built with Adwaita/GTK for the best experience on GNOME-based phone shells, such as Phosh. Built for x86_64 desktop and Linux mobile devices on aarch64 processors.
+A free and open source alternative to the JW Library application,
+built with Adwaita/GTK for the best experience on GNOME-based
+phone shells, such as Phosh. Built for x86_64 desktop and Linux
+mobile devices on aarch64 processors.
 
 SOFTWARE REQUIREMENTS
 
-- Rustup (provides Cargo & rustc)
-- Ninja build system
-- Meson build system
+    - glib version 2+
+    - gio version 2+
+    - desktop-file-utils
+    - appstream
+    - appstream-glib
+    - gtk4
+    - libadwaita
+    - Rustup (provides Cargo & rustc)
+    - Ninja build system
+    - Meson build system
 
 BUILDING FROM SOURCE
 
-To build the release binary:
+    To build the release binary:
 
-`meson setup build`
-`meson compile -C build`
-`meson install -C build`
+    `meson setup build`
+    `meson compile -C build`
+    `meson install -C build`
 
-To build the debug binary:
+    To build the debug binary:
 
-`meson setup builddevel -Dprofile=dev`
-`meson compile -C builddevel`
-`meson install -C builddevel`
+    `meson setup builddevel -Dprofile=dev`
+    `meson compile -C builddevel`
+    `meson install -C builddevel`
 
 LEGAL
 
-This software project and the maintainers of this project are not in any way affiliated with, or endorsed by, the Watchtower Bible and Tract Society of New York Inc.
+    This software project and the maintainers of this project are
+    not in any way affiliated with, or endorsed by, the
+    Watchtower Bible and Tract Society of New York Inc.
