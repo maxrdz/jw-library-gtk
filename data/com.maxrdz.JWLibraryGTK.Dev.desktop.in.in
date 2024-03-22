@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=JW Library (Dev)
+Comment=A Linux Mobile friendly JW Library alternative for GNU/Linux systems.
+Keywords=jw;library;
+Type=Application
+Exec=jw-library-gtk-dev
+# Do not translate this; xgettext marks this automatically.
+Icon=com.maxrdz.JWLibraryGTK.Dev
+Categories=GTK;GNOME;Audio;Video;Player;
+Terminal=false
+# Keys below are recognized by the Phosh shell.
+StartupNotify=true
+X-Purism-FormFactor=Workstation;Mobile;
