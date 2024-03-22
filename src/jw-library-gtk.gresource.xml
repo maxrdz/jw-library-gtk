@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/com/maxrdz/JWLibraryGTK/icons/scalable/actions/">
-  </gresource>
-
-  <gresource prefix="/com/maxrdz/JWLibraryGTK">
+  <gresource prefix="/com/maxrdz/JWLibraryGTK/">
+    <!-- UI resources -->
     <file preprocess="xml-stripblanks" alias="gtk/help-overlay.ui">ui/help-overlay.ui</file>
     <file preprocess="xml-stripblanks">ui/master-window.ui</file>
+    <!-- Image / SVG resources -->
+    <file>icons/marginal.svg</file>
+    <file>icons/marginal_dark.svg</file>
+    <file>icons/marginal_parallel.svg</file>
+    <file>icons/marginal_parallel_dark.svg</file>
+    <file>icons/marginal_quotation.svg</file>
+    <file>icons/marginal_quotation_dark.svg</file>
+    <file>icons/more.png</file>
+    <file>icons/more_dark.png</file>
+    <file>icons/overlay_video.svg</file>
+    <file>icons/reference_works.svg</file>
+    <file>icons/reference_works_dark.svg</file>
+    <file>icons/rsg.svg</file>
+    <file>icons/rsg_dark.svg</file>
+    <file>icons/studypane_chevron.png</file>
+    <file>icons/studypane_chevron_dark.png</file>
+    <file>icons/x.svg</file>
+    <file>icons/x_dark.svg</file>
+    <!-- Font files -->
+    <file>fonts/jw-icons-external-1970474.ttf</file>
   </gresource>
 </gresources>
