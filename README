@@ -3,13 +3,13 @@ jw-library-gtk
 
 A free and open source alternative to the JW Library application, built with Adwaita/GTK for the best experience on GNOME-based phone shells, such as Phosh. Built for x86_64 desktop and Linux mobile devices on aarch64 processors.
 
-SOFTWARE REQUIREMENTS:
+SOFTWARE REQUIREMENTS
 
 - Rustup (provides Cargo & rustc)
 - Ninja build system
 - Meson build system
 
-BUILDING FROM SOURCE:
+BUILDING FROM SOURCE
 
 To build the release binary:
 
@@ -23,3 +23,6 @@ To build the debug binary:
 `meson compile -C builddevel`
 `meson install -C builddevel`
 
+LEGAL
+
+This software project and the maintainers of this project are not in any way affiliated with, or endorsed by, the Watchtower Bible and Tract Society of New York Inc.
