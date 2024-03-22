@@ -1,3 +1,4 @@
 data/com.maxrdz.JWLibraryGTK.desktop.in
 data/com.maxrdz.JWLibraryGTK.metainfo.xml.in
 data/com.maxrdz.JWLibraryGTK.gschema.xml
+src/ui/master-window.ui
